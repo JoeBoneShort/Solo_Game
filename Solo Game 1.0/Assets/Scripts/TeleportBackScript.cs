@@ -9,12 +9,12 @@ public class TeleportBackScript : MonoBehaviour
     {
         if (collision.tag == "Player to GS3")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(4);
         }
 
         if (collision.tag == "Player to GS2")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
         }
 
     }
