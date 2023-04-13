@@ -7,6 +7,14 @@ TagManager:
   - Teleporter
   - Player to GS2
   - Player to GS3
+  - Player to GS4
+  - Player to GS5
+  - Player to GS6
+  - Player to GS7
+  - Player to GS8
+  - Player to GS9
+  - Player to GS10
+  - Player to GS11
   layers:
   - Default
   - TransparentFX

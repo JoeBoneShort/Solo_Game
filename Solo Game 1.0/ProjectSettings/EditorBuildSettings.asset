@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menu.unity
     guid: 93eac762a698c8645a1933c089b20664
   - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 7b58b011dcc09e345a68c96b94231038
+  - enabled: 1
     path: Assets/Scenes/Lore 1.unity
     guid: 1347e0736c7fbfb48a7351b2072e74f0
   - enabled: 1
@@ -29,4 +32,82 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GS 4.unity
     guid: cf16b6b79beaeda42904bb2138dc14e3
+  - enabled: 1
+    path: Assets/Scenes/GS 5.unity
+    guid: f0e5a01123c3c594fbc6e9f4da2c2937
+  - enabled: 1
+    path: Assets/Scenes/GS 6.unity
+    guid: afa5ff42fd9c2a346ba667076e0e932d
+  - enabled: 1
+    path: Assets/Scenes/GS 7.unity
+    guid: b2c8523671cb3c148a16270b0a91640a
+  - enabled: 1
+    path: Assets/Scenes/GS 8.unity
+    guid: 30f6b0abf40f905469f588dc221458db
+  - enabled: 1
+    path: Assets/Scenes/GS 9.unity
+    guid: 9cd38596cfd59e340a0e15cf737e909b
+  - enabled: 1
+    path: Assets/Scenes/GS 10.unity
+    guid: 2154bf0d82eb17e40aba678f2736f8c8
+  - enabled: 1
+    path: Assets/Scenes/GS 11.unity
+    guid: e82b851525213f247b9d1c1fe7604afb
+  - enabled: 1
+    path: Assets/Scenes/GS 12.unity
+    guid: 4ebda0f5f78e5d043a3a24a22dbd361b
+  - enabled: 1
+    path: Assets/Scenes/GS 13.unity
+    guid: e026e312418a47c40832898d509ca832
+  - enabled: 1
+    path: Assets/Scenes/GS 14.unity
+    guid: c646e3747e76dfd44a322b41f0edec17
+  - enabled: 1
+    path: Assets/Scenes/GS 15.unity
+    guid: f6e691307e81dc346b0edb9e8026a402
+  - enabled: 1
+    path: Assets/Scenes/GS 16.unity
+    guid: 7575ce437fafd3c449a85a141e83d359
+  - enabled: 1
+    path: Assets/Scenes/GS 17.unity
+    guid: 07a20f66350d08d4b89bbc8482157916
+  - enabled: 1
+    path: Assets/Scenes/GS 18.unity
+    guid: 959dd191c2f2f7d4496d41e98de6de2a
+  - enabled: 1
+    path: Assets/Scenes/GS 19.unity
+    guid: 31768382121f7e5468b96483d18c4369
+  - enabled: 1
+    path: Assets/Scenes/GS 20.unity
+    guid: c2be9a42b5f534248be0a9a62cfe8405
+  - enabled: 1
+    path: Assets/Scenes/GS 21.unity
+    guid: 00975355d368f6c459b5d3f79088dbdd
+  - enabled: 1
+    path: Assets/Scenes/GS 22.unity
+    guid: f6397b327d0f7d44dbcdcc80d97b4b96
+  - enabled: 1
+    path: Assets/Scenes/GS 23.unity
+    guid: 50b6067f0b986d743afb5bcab06ee68e
+  - enabled: 1
+    path: Assets/Scenes/GS 24.unity
+    guid: ec28e2195e20eb54fa27fcca65dd9921
+  - enabled: 1
+    path: Assets/Scenes/GS 25.unity
+    guid: c36ca620fcb8cb743b8d1c9a4e10ebb1
+  - enabled: 1
+    path: Assets/Scenes/GS 26.unity
+    guid: 41c8f227a78290b41912fa005f056c1d
+  - enabled: 1
+    path: Assets/Scenes/GS 27.unity
+    guid: 51aefc4830f40744a97086964e9d2605
+  - enabled: 1
+    path: Assets/Scenes/GS 28.unity
+    guid: 16e624f5af1cce348aefa68316689d43
+  - enabled: 1
+    path: Assets/Scenes/GS 29.unity
+    guid: e7b77238e342d604eaae414cd913a4d8
+  - enabled: 1
+    path: Assets/Scenes/GS 30.unity
+    guid: 9575bd737bbe2b2409f67556370978e1
   m_configObjects: {}
