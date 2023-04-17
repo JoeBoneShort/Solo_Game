@@ -5,6 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
+    public void GS1()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void StartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 
     public void Instructions()
     {
@@ -25,23 +34,7 @@ public class Level : MonoBehaviour
         SceneManager.LoadScene(4);
     }
 
-    public void LoadGS1()
-    {
-        SceneManager.LoadScene(5);
-    }
+    
 
-    public void LoadGS2()
-    {
-        SceneManager.LoadScene(6);
-    }
 
-    public void LoadGS3()
-    {
-        SceneManager.LoadScene(7);
-    }
-
-    public void LoadGS4()
-    {
-        SceneManager.LoadScene(8);
-    }
 }

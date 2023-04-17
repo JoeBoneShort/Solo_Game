@@ -110,4 +110,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GS 30.unity
     guid: 9575bd737bbe2b2409f67556370978e1
+  - enabled: 1
+    path: Assets/Scenes/Acid Death.unity
+    guid: a13df752cbfec5d4e928c1d03e78d19c
   m_configObjects: {}
