@@ -7,9 +7,29 @@ public class TeleportBackScript : MonoBehaviour
 {
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "Player to GS12")
+        {
+            SceneManager.LoadScene(14);
+        }
+
+        if (collision.tag == "Player to GS11")
+        {
+            SceneManager.LoadScene(13);
+        }
+
+        if (collision.tag == "Player to GS10")
+        {
+            SceneManager.LoadScene(12);
+        }
+
+        if (collision.tag == "Player to GS9")
+        {
+            SceneManager.LoadScene(11);
+        }
+
         if (collision.tag == "Player to GS8")
         {
-            SceneManager.LoadScene(9);
+            SceneManager.LoadScene(10);
         }
 
         if (collision.tag == "Player to GS7")

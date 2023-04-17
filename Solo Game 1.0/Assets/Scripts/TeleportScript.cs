@@ -116,7 +116,7 @@ public class TeleportScript : MonoBehaviour
 
         if (collision.tag == "Player to GS9")
         {
-            SceneManager.LoadScene(13);
+            SceneManager.LoadScene(14);
         }
 
         if (collision.tag == "Player to GS8")

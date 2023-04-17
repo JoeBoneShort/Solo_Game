@@ -7,6 +7,11 @@ public class SecretTeleporter : MonoBehaviour
 {
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "Player to GS9")
+        {
+            SceneManager.LoadScene(13);
+        }
+
         if (collision.tag == "Player to GS5")
         {
             SceneManager.LoadScene(14);
