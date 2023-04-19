@@ -19,6 +19,10 @@ public class Acid : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.tag == "Player to GS12")
+        {
+            SceneManager.LoadScene(35);
+        }
         if(collision.tag == "Player to GS11")
         {
             SceneManager.LoadScene(35);
