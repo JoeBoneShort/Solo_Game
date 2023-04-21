@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
-public class MovingAcid : MonoBehaviour
+public class HelperGuy : MonoBehaviour
 {
+
     [SerializeField] Transform[] Positions;
     [SerializeField] float AcidSpeed;
 
@@ -28,7 +29,7 @@ public class MovingAcid : MonoBehaviour
         if (transform.position == NextPos.position)
         {
             NextPosIndex++;
-            if(NextPosIndex >= Positions.Length)
+            if (NextPosIndex >= Positions.Length)
             {
                 NextPosIndex = 0;
             }
@@ -36,20 +37,8 @@ public class MovingAcid : MonoBehaviour
         }
         else
         {
-            
-            transform.position = Vector3.MoveTowards(transform.position, NextPos.position, AcidSpeed * Time.deltaTime) ;
+
+            transform.position = Vector3.MoveTowards(transform.position, NextPos.position, AcidSpeed * Time.deltaTime);
         }
     }
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "Player to GS13")
-        {
-            SceneManager.LoadScene(35);
-        }
-
-       
-    }
-
- 
 }

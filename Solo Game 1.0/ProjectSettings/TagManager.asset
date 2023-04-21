@@ -16,6 +16,8 @@ TagManager:
   - Player to GS10
   - Player to GS11
   - Player to GS12
+  - Player to GS13
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -23,9 +25,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Wall
+  - Acid
+  - Player
   - 
   - 
   - 
