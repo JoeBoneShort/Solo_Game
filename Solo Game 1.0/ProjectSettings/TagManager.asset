@@ -19,6 +19,9 @@ TagManager:
   - Player to GS13
   - wall
   - Helper
+  - Acid
+  - Player to GS14
+  - Player to GS15
   layers:
   - Default
   - TransparentFX
