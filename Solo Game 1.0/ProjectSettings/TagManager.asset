@@ -18,6 +18,7 @@ TagManager:
   - Player to GS12
   - Player to GS13
   - wall
+  - Helper
   layers:
   - Default
   - TransparentFX
