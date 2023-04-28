@@ -43,6 +43,31 @@ public class MovingAcid : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "Player to GS20")
+        {
+            SceneManager.LoadScene(35);
+        }
+
+        if (collision.tag == "Player to GS19")
+        {
+            SceneManager.LoadScene(35);
+        }
+
+        if (collision.tag == "Player to GS18")
+        {
+            SceneManager.LoadScene(35);
+        }
+
+        if (collision.tag == "Player to GS17")
+        {
+            SceneManager.LoadScene(35);
+        }
+
+        if (collision.tag == "Player to GS16")
+        {
+            SceneManager.LoadScene(35);
+        }
+
         if (collision.tag == "Player to GS15")
         {
             SceneManager.LoadScene(35);
