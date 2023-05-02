@@ -113,4 +113,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Acid Death.unity
     guid: a13df752cbfec5d4e928c1d03e78d19c
+  - enabled: 1
+    path: Assets/Scenes/Ending-Good.unity
+    guid: 67119ddf11257504ab0a79787e5fb8b3
+  - enabled: 1
+    path: Assets/Scenes/Ending-Bad.unity
+    guid: 1d3ce34dc84b92742b9d9d5022a17c6a
   m_configObjects: {}

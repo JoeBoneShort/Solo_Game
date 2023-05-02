@@ -9,6 +9,11 @@ public class TeleportScript : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.tag == "Player to GS31")
+        {
+            SceneManager.LoadScene(37);
+        }
+
         if (collision.tag == "Player to GS30")
         {
             SceneManager.LoadScene(34);

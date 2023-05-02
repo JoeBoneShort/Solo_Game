@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
+    public void GS20()
+    {
+        SceneManager.LoadScene(24);
+    }
     public void GS1()
     {
         SceneManager.LoadScene(5);
